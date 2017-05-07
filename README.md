@@ -25,10 +25,13 @@ wrap with a single well-designed API.
 The composite pattern is a partitioning design pattern, describes a group of objects that is treated the same way as a single instance of the same type of object. The intent of a composite is to "compose" objects into tree structures to represent part-whole hierarchies. Implementing the composite pattern lets clients treat individual objects and compositions uniformly
 
 
-Technical design - Attached diagram below provides all the classes and it's associations.
+Technical design:
 
-
+- Class diagram
 ![alt text](https://cloud.githubusercontent.com/assets/28501639/25785811/2ece64f6-3381-11e7-9e00-47225b6cf801.jpg)
+
+- Sequence diagram
+![alt text](https://cloud.githubusercontent.com/assets/28501639/25786092/c3607f28-3386-11e7-81d5-5c3969330926.jpg)
 
 
 Build:
