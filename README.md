@@ -11,7 +11,7 @@ b.	Calculate the GBCE All Share Index using the geometric mean of prices for all
 Software design solution - I have used following design patterns to implement the requirements provided.
 
 
-- The facade pattern design pattern
+- The facade pattern.
 
 The facade pattern (also spelled façade) is a software design pattern commonly used with object-oriented programming. 
 The name is by analogy to an architectural façade.A facade is an object that provides a simplified interface to a larger body of code, such as a class library. A facade can
