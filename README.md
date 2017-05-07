@@ -28,7 +28,7 @@ The composite pattern is a partitioning design pattern, describes a group of obj
 Technical design - Attached diagram below provides all the classes and it's associations.
 
 
-![alt text](https://cloud.githubusercontent.com/assets/28501639/25779994/75a86962-3318-11e7-9b8f-79ed023bbcbf.jpg)
+![alt text](https://cloud.githubusercontent.com/assets/28501639/25785811/2ece64f6-3381-11e7-9e00-47225b6cf801.jpg)
 
 
 Build:
