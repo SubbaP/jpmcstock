@@ -27,13 +27,13 @@ Build:
 
 - Development Technology stack - Spring Boot, Spring and Spring data repository
 - Test technology statck - Mocikto
-- Maven is used a build tool.
-- Eclipse Oxygen is used for development.
+- Maven is used as a build tool.
+- Eclipse Oxygen is used for development tool.
 - GIT master branch is used for code respository.
 
 Test:
 
-- Down load the source code and navigate to root directory which has POM.
+- Download the source code and navigate to root(demo) directory which has POM.
 - Run the Spring boot application with demo profile, mvn spring-boot:run 
   a. Populates the demo data
   b. Perform a random number of parallel transactions with a minimum of 10 transactions 
