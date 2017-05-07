@@ -27,6 +27,19 @@ Technical design - Attached diagram below Provides interaction between the class
 
 Build:
 
-a. Technology stack - Spring Boot, Spring and Spring data repository
-b. Down load the source code 
-c. mvn test
+Development Technology stack - Spring Boot, Spring and Spring data repository
+Test technology statck - Mocikto
+
+Test:
+
+- Down load the source code and navigate to root directory which has POM.
+- Run the Spring boot application with demo profile, mvn spring-boot:run 
+  a. Populates the demo data
+  b. Perform a random number of parallel transactions with a minimum of 10 transactions 
+     and a maximum of 50
+- To run the junit test case, mvn test.
+  a. Mocked Trade respository and Stock repository.
+  b. All the 14 unit test case should pass.
+  
+
+
