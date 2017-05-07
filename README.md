@@ -1,6 +1,4 @@
 # jpmcstock
-JPMC Requirement to calculate 
-
 Requirements 
 1. Provide working source code that will :- 
 a.	For a given stock,  
