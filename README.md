@@ -27,8 +27,11 @@ Technical design - Attached diagram below Provides interaction between the class
 
 Build:
 
-Development Technology stack - Spring Boot, Spring and Spring data repository
-Test technology statck - Mocikto
+- Development Technology stack - Spring Boot, Spring and Spring data repository
+- Test technology statck - Mocikto
+- Maven is used a build tool.
+- Eclipse Oxygen is used for development.
+- GIT master branch is used for code respository.
 
 Test:
 
