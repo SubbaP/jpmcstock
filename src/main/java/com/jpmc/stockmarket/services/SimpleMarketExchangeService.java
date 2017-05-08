@@ -7,10 +7,8 @@ import com.jpmc.stockmarket.models.TradeType;
 import com.jpmc.stockmarket.repositories.StockRepository;
 import com.jpmc.stockmarket.repositories.TradeRepository;
 
-import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.Calendar;
@@ -27,10 +25,12 @@ public class SimpleMarketExchangeService implements MarketExchangeService {
 	
   private static final Logger LOG = LoggerFactory.getLogger(DataLoader.class);
 
-
   private TradeRepository tradeRepository;
   private StockRepository stockRepository;
 
+  /*
+   * Autowire annotation is not needed because of single constructor.
+   */
   public SimpleMarketExchangeService(TradeRepository tradeRepository, StockRepository stockRepository) {
     this.tradeRepository = tradeRepository;
     this.stockRepository = stockRepository;
@@ -124,7 +124,7 @@ public class SimpleMarketExchangeService implements MarketExchangeService {
 
   private double getVolumeWeightedStockPrice(String stockSymbol, Date time) {
     List<Trade> trades = tradeRepository.findByStockSymbolAndTimeStampAfter(stockSymbol, time);
-    LOG.info("In the method getVolumeWeightedStockPrice(), the trades are :" + trades);
+    LOG.debug("In the method getVolumeWeightedStockPrice(), the trades are :" + trades);
     Stock stock = stockRepository.findBySymbol(stockSymbol);
 
     if(trades.isEmpty()) {
